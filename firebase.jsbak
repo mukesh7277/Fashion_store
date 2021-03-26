@@ -1,0 +1,30 @@
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// import * as firebase from 'react-native-firebase';
+import auth from '@react-native-firebase/auth';
+
+const firebaseConfig = {
+    apiKey: "AIzaSyCNj4MDdqTqCuiP2sYZr5USp8V6ZydewLs",
+    authDomain: "login-project-71050.firebaseapp.com",
+    projectId: "login-project-71050",
+    storageBucket: "login-project-71050.appspot.com",
+    messagingSenderId: "725773674223",
+    appId: "1:725773674223:web:65644d988d2ea62fb11d1a",
+    measurementId: "G-P3EZQ19RL3"
+  };
+
+  let app;
+
+  if (firebase.apps.length === 0) 
+  {
+    app = firebase.initializeApp(firebaseConfig);
+  } 
+  else
+  {
+    app = firebase.app();
+  }
+
+  const db = app.firestore();
+  const auth = firebase.auth();
+
+  export {db,auth};
+  
