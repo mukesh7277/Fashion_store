@@ -1,4 +1,7 @@
 # Fashion_store
+apk build - https://drive.google.com/file/d/1_EW2cIdkDKTqiqYUwHQeENaPCCIngf21/view?usp=sharing
+
+
 Screnshots.
 
 ![Screenshot_1616743481](https://user-images.githubusercontent.com/51682317/112597003-94bf3500-8e32-11eb-99c7-012af88b9e6d.png)
